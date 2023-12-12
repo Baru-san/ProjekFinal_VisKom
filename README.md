@@ -18,3 +18,6 @@ Langkah langkah:
 4. Run program<br/>
    'python3 virtual_calc.py'<br/>
    'python3 beat_vir.py'<br/>
+
+Sources:
+- [Sources 0] (git clone https://github.com/Baru-san/ProjekFinal_VisKom.git)
