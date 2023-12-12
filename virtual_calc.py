@@ -153,7 +153,7 @@ while loop:
             delayCounter = 0
 
     #Display result
-    cv2.putText(img, myEquation, (810, 117), cv2.FONT_HERSHEY_PLAIN, 3, (50, 50, 50), 3)
+    cv2.putText(img, format(myEquation, '.8f'), (810, 117), cv2.FONT_HERSHEY_PLAIN, 3, (50, 50, 50), 3)
 
     #Display image
     cv2.imshow("Image", img)
