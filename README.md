@@ -11,12 +11,24 @@ Langkah langkah:
    ```sh
    git clone https://github.com/Baru-san/ProjekFinal_VisKom.git
    ```
-3. Membuka folder yang sudah di clone<br/>
-   'cd .../ProjekFinal_Viskom'<br/>
-4. Install libraries<br/>
-   'pip install cv2'<br/>
-   'pip install cvzone'<br/>
-   'pip install mediapipe'<br/>
-5. Run program<br/>
-   'python3 virtual_calc.py'<br/>
-   'python3 beat_vir.py'<br/>
+2. Membuka folder yang sudah di clone<br/>
+   ```sh
+   cd .../ProjekFinal_Viskom
+   ```
+3. Install libraries<br/>
+   ```sh
+   pip install cv2
+   ```
+   ```sh
+   pip install cvzone
+   ```
+   ```sh
+   pip install mediapipe
+   ```
+4. Run program<br/>
+   ```sh
+   python3 virtual_calc.py
+   ```
+   ```sh
+   python3 beat_vir.py
+   ```
