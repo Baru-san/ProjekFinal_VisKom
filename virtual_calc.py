@@ -152,8 +152,10 @@ while loop:
         if delayCounter > 10:
             delayCounter = 0
 
-    #Display result
-    cv2.putText(img, format(myEquation, '.8f'), (810, 117), cv2.FONT_HERSHEY_PLAIN, 3, (50, 50, 50), 3)
+    if myEquation.isdigit() or myEquation.replace('.', '', 1).isdigit():
+        cv2.putText(img, format(float(myEquation), '.9f'), (810, 117), cv2.FONT_HERSHEY_PLAIN, 3, (50, 50, 50), 3)
+    else:
+        cv2.putText(img, myEquation, (810, 117), cv2.FONT_HERSHEY_PLAIN, 3, (50, 50, 50), 3)
 
     #Display image
     cv2.imshow("Image", img)
