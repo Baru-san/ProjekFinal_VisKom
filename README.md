@@ -9,8 +9,8 @@ Anggota Kelompok:
 Langkah langkah:
 1. Clone git<br/>
    ```sh
-   git clone https://github.com/Baru-san/ProjekFinal_VisKom.git
-   ```<br/>
+   git clone https://github.com/Baru-san/ProjekFinal_VisKom.git<br/>
+   ```
 3. Membuka folder yang sudah di clone<br/>
    'cd .../ProjekFinal_Viskom'<br/>
 4. Install libraries<br/>
