@@ -7,16 +7,14 @@ Anggota Kelompok:
 
 ### Cara menjalankan code
 Langkah langkah:
-1. Clone git
-   git clone https://github.com/Baru-san/ProjekFinal_VisKom.git
-2. Membuka folder yang sudah di clone
-   cd .../ProjekFinal_Viskom
-3. Install libraries
-   pip install cv2
-   pip install cvzone
-   pip install mediapipe
-   pip install math
-   pip install re
-4. Run program
-   python3 virtual_calc.py
-   python3 beat_vir.py
+1. Clone git<br/>
+   'git clone https://github.com/Baru-san/ProjekFinal_VisKom.git'<br/>
+2. Membuka folder yang sudah di clone<br/>
+   'cd .../ProjekFinal_Viskom'<br/>
+3. Install libraries<br/>
+   'pip install cv2'<br/>
+   'pip install cvzone'<br/>
+   'pip install mediapipe'<br/>
+4. Run program<br/>
+   'python3 virtual_calc.py'<br/>
+   'python3 beat_vir.py'<br/>
